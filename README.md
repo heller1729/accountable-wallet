@@ -1,4 +1,4 @@
-# Accountable Wallet
+# NullReveal
 
 A zero-knowledge proof demo that lets you prove your wallet balance is above a certain threshold — without revealing what your actual balance is.
 
@@ -43,7 +43,7 @@ Rust is used under the hood to compile the Circom compiler itself, but you don't
 ## Project structure
 
 ```
-accountable-wallet/
+nullreveal/
 ├── circuits/
 │   └── balance_threshold.circom   # the ZK circuit
 ├── scripts/
@@ -70,8 +70,8 @@ You'll need these installed:
 
 ```bash
 # clone the repo
-git clone https://github.com/heller1729/accountable-wallet.git
-cd accountable-wallet
+git clone https://github.com/heller1729/nullreveal.git
+cd nullreveal
 
 # install dependencies
 npm install

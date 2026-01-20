@@ -81,7 +81,7 @@ async function copyToWeb() {
 
 async function main() {
     console.log("===========================================");
-    console.log("  Accountable Wallet - Trusted Setup");
+    console.log("  NullReveal - Trusted Setup");
     console.log("===========================================\n");
 
     try {

@@ -1,4 +1,4 @@
-// accountable wallet demo
+// nullreveal demo
 // proves balance >= threshold without revealing the actual balance
 
 let currentBalance = null;
@@ -193,4 +193,4 @@ elements.createCommitment.addEventListener('click', createBalanceCommitment);
 elements.generateProof.addEventListener('click', generateAccountabilityProof);
 elements.verifyProof.addEventListener('click', verifyAccountabilityProof);
 
-console.log('accountable wallet loaded');
+console.log('nullreveal loaded');
